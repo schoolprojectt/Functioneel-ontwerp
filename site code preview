@@ -1,0 +1,167 @@
+ <!doctype html>
+<html>
+<style>
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #666;
+}
+
+li a {
+    display: block;
+    color: #ddd;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: red;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+}
+.column {
+    float: center;
+    width: 33.33%;
+}
+
+.div2 {
+	min-height: 100px;
+	float: right;
+	width: 60%;
+	height: 150px;
+	background-color: #kkk;
+}
+
+
+</style>
+
+<head>
+
+<div class="topnav">
+  <img src="logo.jpg" alt="Logo" width="60" height="60"><br>
+  <a href="#">Home</a>
+  <a href="#">Over Ons</a>
+  <a href="#">Contact</a>
+</div>
+
+<ul>
+  <li><a href="#home">Knal vuurwerk</a></li>
+  <li><a href="#news">Siervuurwerk</a></li>
+  <li><a href="#contact">Vuurpijlen</a></li>
+  <li><a href="#about">Kindervuurwerk</a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+</ul>
+<br>
+<div class="div2">
+<div class="gallery">
+  <a target="_blank" href="vuurwerk.png">
+    <img src="vuurwerk.png" alt="Cinque Terre" width="300" height="200">
+  </a>
+  <div class="desc">Red Alert pot <br> $ 100,00</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="vuurwerk2.png">
+    <img src="vuurwerk2.png" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc"> 26 Vuurpijlen <br> $ 50,00</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="vuurwerk6.png">
+    <img src="vuurwerk6.png" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Pijlen pakket <br> $ 25,00</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="vuurwerk4.png">
+    <img src="vuurwerk4.png" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Twin Mauntains<br> $ 75,00</div>
+</div>
+</head>
+
+
+
+</html>
